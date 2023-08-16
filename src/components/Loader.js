@@ -1,0 +1,19 @@
+function Loader() {
+    return (
+        <>
+            <div className="loader-main">
+                <div class="jumpy-bars">
+                    <div class="bar" id="bar1"></div>
+                    <div class="bar" id="bar2"></div>
+                    <div class="bar" id="bar3"></div>
+                    <div class="bar" id="bar4"></div>
+                    <div class="bar" id="bar5"></div>
+                    <div class="bar" id="bar6"></div>
+                    <div class="bar" id="bar7"></div>
+                </div>
+            </div>
+        </>
+    );
+}
+
+export default Loader;
